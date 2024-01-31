@@ -1,0 +1,17 @@
+.main1{
+    height: 100%;
+    width: 50%;
+    background-image: url('https://t3.ftcdn.net/jpg/04/74/39/56/360_F_474395622_Y51Rwj1CufG05ef2gMOjoMgnYz6IBaa1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icons .img{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height: 10%;
+}
+h4{
+    font-size: 25px;
+}
