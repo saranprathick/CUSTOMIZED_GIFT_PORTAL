@@ -1,0 +1,287 @@
+/* Reset box-sizing to border-box globally */
+* {
+    box-sizing: border-box;
+  }
+
+  
+  .dark:bg-gray-900 {
+    background-color: #1a202c; /* Set background color for dark mode */
+  }
+  
+  .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .max-w-screen-md {
+    max-width: 55rem; /* Adjust the max-width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for light mode */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .tracking-tight {
+    letter-spacing: -0.02em;
+  }
+  
+  .font-extrabold {
+    font-weight: 800;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-gray-900 {
+    color: #111827; /* Adjust text color for light mode */
+  }
+  
+  .dark:text-white {
+    color: #fff; /* Adjust text color for dark mode */
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .font-light {
+    font-weight: 300;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280; /* Adjust text color for light mode */
+  }
+  
+  .dark:text-gray-400 {
+    color: #9ca3af; /* Adjust text color for dark mode */
+  }
+  
+  .sm\:text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 2rem;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .text-gray-300 {
+    color: #d1d5db; /* Adjust text color for light mode */
+  }
+  
+  .dark:text-gray-600 {
+    color: #4b5563; /* Adjust text color for dark mode */
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .bg-gray-50 {
+    background-color: #f9fafb; /* Adjust background color for light mode */
+  }
+  
+  .border {
+    border-width: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for light mode */
+  }
+  
+  .border-gray-300 {
+    border-color: #e5e7eb; /* Adjust border color for light mode */
+  }
+  
+  .dark:border-gray-600 {
+    border-color: #4b5563; /* Adjust border color for dark mode */
+  }
+  
+  .text-gray-900 {
+    color: #111827; /* Adjust text color for light mode */
+  }
+  
+  .dark:text-white {
+    color: #fff; /* Adjust text color for dark mode */
+  }
+  
+  .focus\:ring-primary-500:focus {
+    outline-color: #3b82f6; /* Adjust outline color for focus */
+    outline-offset: 0.25rem;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  }
+  
+  .focus\:border-primary-500:focus {
+    border-color: #3b82f6; /* Adjust border color for focus */
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-2\.5 {
+    padding: 0.625rem; /* Adjust padding as needed */
+  }
+  
+  .dark:bg-gray-700 {
+    background-color: #4a5568; /* Adjust background color for dark mode */
+  }
+  
+  .dark:border-gray-600 {
+    border-color: #4b5563; /* Adjust border color for dark mode */
+  }
+  
+  .dark:placeholder-gray-400::placeholder {
+    color: #9ca3af; /* Adjust placeholder color for dark mode */
+  }
+  
+  .dark:text-white {
+    color: #fff; /* Adjust text color for dark mode */
+  }
+  
+  .dark:focus\:ring-primary-500:focus {
+    outline-color: #93c5fd; /* Adjust outline color for focus in dark mode */
+    box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.5);
+  }
+  
+  .dark:focus\:border-primary-500:focus {
+    border-color: #93c5fd; /* Adjust border color for focus in dark mode */
+  }
+  
+  .dark:shadow-sm-light {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .text-gray-900 {
+    color: #111827; /* Adjust text color for light mode */
+  }
+  
+  .dark:bg-gray-700 {
+    background-color: #4a5568; /* Adjust background color for dark mode */
+  }
+  
+  .dark:border-gray-600 {
+    border-color: #4b5563; /* Adjust border color for dark mode */
+  }
+  
+  .dark:placeholder-gray-400::placeholder {
+    color: #9ca3af; /* Adjust placeholder color for dark mode */
+  }
+  
+  .dark:text-white {
+    color: #fff; /* Adjust text color for dark mode */
+  }
+  
+  .dark:focus\:ring-primary-500:focus {
+    outline-color: #93c5fd; /* Adjust outline color for focus in dark mode */
+    box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.5);
+  }
+  
+  .dark:focus\:border-primary-500:focus {
+    border-color: #93c5fd; /* Adjust border color for focus in dark mode */
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .text-white {
+    color: #fff; /* Adjust text color for light mode */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem; /* Adjust border-radius as needed */
+  }
+  
+  .bg-primary-700 {
+    background-color: #3b82f6; /* Set background color for the primary button in light mode */
+  }
+  
+  .sm:w-fit {
+    width: fit-content; /* Adjust width as needed */
+  }
+  
+  .hover\:bg-primary-800:hover {
+    background-color: #1e40af; /* Set background color on hover for the primary button in light mode */
+  }
+  
+  .focus\:ring-4:focus {
+    outline-width: 0.25rem;
+    outline-color: #a1d2ff; /* Adjust outline color for focus in light mode */
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  .focus\:ring-primary-300:focus {
+    outline-color: #93c5fd; /* Adjust outline color for focus on the primary button in light mode */
+  }
+  
+  .dark:bg-primary-600 {
+    background-color: #2563eb; /* Set background color for the primary button in dark mode */
+  }
+  
+  .dark:hover\:bg-primary-700:hover {
+    background-color: #1d4ed8; /* Set background color on hover for the primary button in dark mode */
+  }
+  
+  .dark:focus\:ring-primary-800:focus {
+    outline-color: #172554; /* Adjust outline color for focus on the primary button in dark mode */
+  }
+  
